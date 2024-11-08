@@ -20,7 +20,7 @@ int main()
 
     file_input = fopen("Sample.bin", "rb+"); // Enter the name of your encrypted file in place of "Sample.bin". Rename it if it's too long.
     
-    file_output = fopen("Sample_decrypted.jpg","wb"); // Enter the name for output file with appropriate extension(like .jpg, .png, etc..).
+    file_output = fopen("out.jpg","wb"); // Enter the name for output file with appropriate extension(like .jpg, .png, etc..).
     
     while((read_char = getc(file_input)) != EOF)
     {
