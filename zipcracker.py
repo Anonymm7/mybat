@@ -19,9 +19,10 @@ class main:
 		return
 
 	def start_cracking_engine(self):
-		print "[+]    Loading zipfile....",
+		print "[+] Tool by Thiha...." 
+		print "[+]   Loading zipfile....",
 		fileload=zipfile.ZipFile(self.filename)
-		print "ok"
+		print "ok...."
 		if self.dictionery:
 			print "[+]  Using Dictionery option...ok"
 			print "[+]  Loading Dictionery File...ok"
